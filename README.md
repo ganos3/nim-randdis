@@ -1,7 +1,8 @@
 This is a collection of random number generators for various provability distributions written in nim.
 
-At present, it has:  
-for continuous distribution:  
+At present, it has:
+
+for continuous distribution:
 1. normal distribution: randnorm(mean: float, sd: float)
 2. exponential distribution: randexp(mean: float)
 3. kaisquare distribution: randkaisquare(freedom: int)
@@ -16,8 +17,8 @@ for continuous distribution:
 12. frechet distridution: randfrechet(shape: float, location: float, scale: float)
 
 for discrete distribution:  
-13. binorminal distribution: randbinomi* (trial: int, prob: float)
-14. poisson distribution randpois(lambda:float)
+ 13. binorminal distribution: randbinomi* (trial: int, prob: float)  
+ 14. poisson distribution randpois(lambda:float)
 
 This is very naive implementation. There will be lots of rooms for improvements. Any suggestion is welcome.  
 The procs do not have any checking code for the valid range of the paramaters. For your safety, it is good to have checking code in your program when using these procs.  
