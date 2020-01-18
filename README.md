@@ -20,8 +20,8 @@ for discrete distribution:
 1. binorminal distribution: randbinomi* (trial: int, prob: float)  
 2. poisson distribution randpois(lambda:float)
 
-This is very naive implementation. There will be lots of rooms for improvements. Any suggestion is welcome.  
-The procs do not have any checking code for the valid range of the paramaters. For your safety, it is good to have checking code in your program when using these procs.  
+This is very naive implementation. There will be many rooms for improvements. Any suggestion is welcome.  
+The procs do not have any checking code for the valid range of the paramaters. For your safety, it is good to have checking codes in your program when using these procs.  
 The nim.random.rand() is used without randomize() initialization. Procs will give you the same series numbers if you do not initialize randomize() (with using defferent seed values).  
 The procs will generate only one number. If you need a set of numbers, you have to loop them by yourself.  
  
