@@ -1,6 +1,8 @@
 import random, math
 
-## Caution!! This is very naive implementation. Any check for the valid range of the paramaters within the function were omitted. nim.random.rand() is used without randomize() initialization. The function may crush in the middle of operation and/or may give you strange values.
+## Caution!! This is very naive implementation. Any check for the valid range of the paramaters within the function 
+## were omitted. nim.random.rand() is used without randomize() initialization. The function may crush in the middle
+## of operation and/or may give you strange values.
  
 proc randnorm* (mean: float, sd: float): float =
   var
