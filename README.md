@@ -1,6 +1,6 @@
 Randdis is a collection of random number generators for various provability distributions written in nim.
 
-At present,randdis has:
+At present, randdis has:
 
 for continuous distribution:
 1. normal distribution: randnorm(mean: float, sd: float)
@@ -22,6 +22,6 @@ for discrete distribution:
 
 This is very naive implementation. There will be lots of rooms for improvements. Any suggestion is welcome.  
 The procs do not have any checking code for the valid range of the paramaters. For your safety, it is good to have checking code in your program when using these procs.  
-The nim.random.rand() is used without randomize() initialization. Procs will give you the same series numbers if you do not initialize by randomize() (with defferent seed value for each time).  
+The nim.random.rand() is used without randomize() initialization. Procs will give you the same series numbers if you do not initialize randomize() (with using defferent seed values).  
 The procs will generate only one number. If you need a set of numbers, you have to loop them by yourself.  
  
