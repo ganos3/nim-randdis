@@ -17,7 +17,7 @@ for continuous distribution:
 12. frechet distridution: randfrechet(shape: float, location: float, scale: float)
 
 for discrete distribution:
-1. binorminal distribution: randbinomi* (trial: int, prob: float)  
+1. binorminal distribution: randbinomi(trial: int, prob: float)  
 2. poisson distribution randpois(lambda:float)
 
 This is very naive implementation. There will be many rooms for improvements. Any suggestion is welcome.  
