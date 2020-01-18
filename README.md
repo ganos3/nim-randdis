@@ -1,6 +1,6 @@
 Randdis is a collection of random number generators for various provability distributions written in nim.
 
-At present,
+At present,randdis has:
 
 for continuous distribution:
 1. normal distribution: randnorm(mean: float, sd: float)
